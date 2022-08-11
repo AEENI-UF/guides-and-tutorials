@@ -95,8 +95,7 @@ Caching credentials will facilitate your authentications to GitHub by rememberin
 ## 3.1 Join the organization
 After registering the team to participate to DevHunt, team members will receive an email invitation allowing him/her to join the [AEENI-UF organization](https://github.com/AEENI-UF). 
 
-<img src="./img/Pending team.png"/>
-
+<img src="./img/Email invitation.png"/>
 ![[Email invitation.png]]
 
 Click the join button and you will be redirected to github:
@@ -184,7 +183,7 @@ $ git clone https://github.com/AEENI-UF/devhunt-edition-1-YOURREPONAME.git
 <img src="./img/Git clone.png"/>
 ![[Git clone.png]]
 
-A new folder containing the project will be created, Change directory to the project:
+A new folder containing the project will be created, it is called the `working directory` . Change directory to that folder:
 
 ```execute
 $ cd devhunt-edition-1-YOURREPONAME
@@ -199,16 +198,16 @@ If you list its content, there should exist one folder `.git` and a `README.md` 
 
 
 
------------- IN PROGRESS ... -----------
+# ------------ IN PROGRESS ... -----------
 
 ### 3.3.3 Open the project in your IDE
-You can open the project in your IDE. (VSCode, Atom, Eclipse,...) 
+You can open the project in your IDE or source code editor. (VSCode, Atom, Eclipse,...) 
 
 ### 3.3.4 Developing the project
 It's time to develop our project. Each time we finish a functionnality in our project, we should upload (push) the modifications to our remote repository so that the other collaborators can download (pull) them. 
-Thus, we have to repeat the following actions each time we want to update our project:
+The workflow: we have to repeat the following actions each time we want to update our project:
 
-1.  Create or modify files (css, html, js ....)
+1.  Create or modify files (css, html, js, py, java, img, ....)
 2.  Add modifications into the staging area.
 3. ...
 
@@ -237,4 +236,5 @@ We have now two files: `README.md` and `Hello World` .
 # Useful Links
  
 [GitHub docs](https://docs.github.com/en)
+
 [GitHub CLI](https://cli.github.com/)
