@@ -87,6 +87,7 @@ Caching credentials will facilitate your authentications to GitHub by rememberin
 -   When prompted for your preferred protocol for Git operations, select `HTTPS`.
 -   When asked if you would like to authenticate to Git with your GitHub credentials, enter `Y`.
   
+  <img src="./img/GitHub CLI.png"/>
 ![[GitHub CLI.png]]
 
 
@@ -96,16 +97,16 @@ After registering the team to participate to DevHunt, team members will receive 
 
 <img src="./img/Pending team.png"/>
 
-![]("img/")
-
 ![[Email invitation.png]]
 
 Click the join button and you will be redirected to github:
 
+<img src="./img/GitHub invitation.png"/>
 ![[GitHub invitation.png]]
 
 Once joined, you will be able to see and create repositories on the organization. You will be able to join or create teams and subteams also.
 
+<img src="./img/AEENI-UF.png"/>
 ![[AEENI-UF.png]]
 
 
@@ -114,18 +115,20 @@ Once joined, you will be able to see and create repositories on the organization
 For now, the **team leader** should :
 1. [Create a visible subteam](https://github.com/orgs/AEENI-UF/new-team)  inside the organization for their team, under the `devhunt-edition-1-teams` (the parent team):
 
-
+<img src="./img/New team.png"/>
 ![[New team.png]]
 
 Then, it will be pending until approved to become a child of the `devhunt-edition-1-teams` :
 
+<img src="./img/Pending team.png"/>
 ![[Pending team.png]]
 
 2. [Create a repository](https://github.com/organizations/AEENI-UF/repositories/new) for their project. Use the prefix `devhunt-edition-1-` before your repos name.  It should have a README.md file that describes how to install and use their project.
    
    > Eg:  devhunt-edition-1-cocotte-minute
    
-![[Pasted image 20220810224801.png]]
+   <img src="./img/New Repository.png"/>
+![[New Repository.png]]
 
 
 
