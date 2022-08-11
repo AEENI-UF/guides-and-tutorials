@@ -91,8 +91,12 @@ Caching credentials will facilitate your authentications to GitHub by rememberin
 
 
 # 3. Teams
-## 3.1 Join your team
+## 3.1 Join the organization
 After registering the team to participate to DevHunt, team members will receive an email invitation allowing him/her to join the [AEENI-UF organization](https://github.com/AEENI-UF). 
+
+<img src="./img/Pending team.png"/>
+
+![]("img/")
 
 ![[Email invitation.png]]
 
