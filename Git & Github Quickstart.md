@@ -91,7 +91,7 @@ Caching credentials will facilitate your authentications to GitHub by rememberin
 ![[GitHub CLI.png]]
 
 
-# 3. Teams
+# 3. Teams and repositories
 ## 3.1 Join the organization
 After registering the team to participate to DevHunt, team members will receive an email invitation allowing him/her to join the [AEENI-UF organization](https://github.com/AEENI-UF). 
 
@@ -130,15 +130,67 @@ Then, it will be pending until approved to become a child of the `devhunt-editio
    <img src="./img/New Repository.png"/>
 ![[New Repository.png]]
 
+3. Go to your team's page at `https://github.com/orgs/AEENI-UF/teams/YOURTEAMNAME/repositories`,  and add your repository
+   > eg: https://github.com/orgs/AEENI-UF/teams/cocotte-minute/repositories
 
+<img src="./img/Team repo.png"/>
+![[Team repo.png]]
 
-**
+Click the Add repository button and enter the name of the repository you created earlier.
+> eg: AEENI-UF/devhunt-edition-1-cocotte-minute
 
+<img src="./img/Add repo to team.png"/>
+![[Add repo to team.png]]
 
+Then you should now see it in your team's repos
 
-# 3. Repositories
+<img src="./img/Repo added to team.png"/>
+![[Repo added to team.png]]
 
+Add Write permission to the repo for the team
 
+<img src="./img/Add write permission to repo.png"/>
+![[Add write permission to repo.png]]
+
+Now, your team's repository is ready. You can visit the repo by clicking the link of the repo, or go directly to the link `https://github.com/AEENI-UF/devhunt-edition-1-YOURREPONAME`
+
+## 3.3 Using the repository
+
+### 3.3.1 Get the link to the repository
+
+Go to your repository and copy the HTTPS url to your repo
+
+<img src="./img/Https link.png"/>
+![[Https link.png]]
+
+### 3.3.2 Cloning into a local repository
+
+Each collaborators (team members) should now clone the repository into their local machines and work with their local copy.
+
+Change to a directory where you would like to put the local copy:
+
+```execute
+$ cd /path/to/myprojects
+```
+
+Clone the repository using the SSH url copied earlier:
+
+```execute
+$ git clone https://github.com/AEENI-UF/devhunt-edition-1-YOURREPONAME.git
+```
+
+> eg: git clone https://github.com/AEENI-UF/devhunt-edition-1-cocotte-minute.git
+
+<img src="./img/Git clone.png"/>
+![[Git clone.png]]
+
+Change directory to the project:
+
+```execute
+$ cd devhunt-edition-1-YOURREPONAME
+```
+
+> eg: cd devhunt-edition-1-cocotte-minute
 
 
 
