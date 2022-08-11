@@ -113,7 +113,7 @@ Once joined, you will be able to see and create repositories on the organization
 ## 3.2 Team leader tasks
 
 For now, the **team leader** should :
-1. [Create a visible subteam](https://github.com/orgs/AEENI-UF/new-team)  inside the organization for their team, under the `devhunt-edition-1-teams` (the parent team):
+1. [Create a visible subteam](https://github.com/orgs/AEENI-UF/new-team)  inside the organization for your team, under the `devhunt-edition-1-teams` (the parent team):
 
 <img src="./img/New team.png"/>
 ![[New team.png]]
@@ -123,7 +123,7 @@ Then, it will be pending until approved to become a child of the `devhunt-editio
 <img src="./img/Pending team.png"/>
 ![[Pending team.png]]
 
-2. [Create a repository](https://github.com/organizations/AEENI-UF/repositories/new) for their project. Use the prefix `devhunt-edition-1-` before your repos name.  It should have a README.md file that describes how to install and use their project.
+2. [Create a repository](https://github.com/organizations/AEENI-UF/repositories/new) for your project. Use the prefix `devhunt-edition-1-` before your repos name.  It should have a README.md file that describes how to install and use your project.
    
    > Eg:  devhunt-edition-1-cocotte-minute
    
