@@ -184,7 +184,7 @@ $ git clone https://github.com/AEENI-UF/devhunt-edition-1-YOURREPONAME.git
 <img src="./img/Git clone.png"/>
 ![[Git clone.png]]
 
-Change directory to the project:
+A new folder containing the project will be created, Change directory to the project:
 
 ```execute
 $ cd devhunt-edition-1-YOURREPONAME
@@ -192,13 +192,46 @@ $ cd devhunt-edition-1-YOURREPONAME
 
 > eg: cd devhunt-edition-1-cocotte-minute
 
+If you list its content, there should exist one folder `.git` and a `README.md` file.
+
+<img src="./img/List first.png"/>
+![[List first.png]]
+
+
+
+------------ IN PROGRESS ... -----------
 
 ### 3.3.3 Open the project in your IDE
-You can open the project in your IDE. (VSCode, Atom, Eclipse,...)
+You can open the project in your IDE. (VSCode, Atom, Eclipse,...) 
 
-3.3.4 Develop the project
+### 3.3.4 Developing the project
+It's time to develop our project. Each time we finish a functionnality in our project, we should upload (push) the modifications to our remote repository so that the other collaborators can download (pull) them. 
+Thus, we have to repeat the following actions each time we want to update our project:
 
-3.3.5 
+1.  Create or modify files (css, html, js ....)
+2.  Add modifications into the staging area.
+3. ...
+
+
+
+1. Creating source code files
+You can now create your source code files .
+
+Example: HelloWorld.html
+```html
+<html>
+	<body>
+		<h1>Hello World</h1>
+	</body>
+</html>
+```
+
+We have now two files: `README.md` and `Hello World` .
+
+2. 
+
+
+### 3.3.5 
 
 
 # Useful Links
