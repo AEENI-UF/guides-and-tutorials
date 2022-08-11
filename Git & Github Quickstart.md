@@ -193,6 +193,12 @@ $ cd devhunt-edition-1-YOURREPONAME
 > eg: cd devhunt-edition-1-cocotte-minute
 
 
+### 3.3.3 Open the project in your IDE
+You can open the project in your IDE. (VSCode, Atom, Eclipse,...)
+
+3.3.4 Develop the project
+
+3.3.5 
 
 
 # Useful Links
