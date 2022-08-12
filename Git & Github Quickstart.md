@@ -93,7 +93,7 @@ Caching credentials will facilitate your authentications to GitHub by rememberin
 
 # 3. Teams and repositories
 ## 3.1 Join the organization
-After registering the team to participate to DevHunt, team members will receive an email invitation allowing him/her to join the [AEENI-UF organization](https://github.com/AEENI-UF). 
+After registering the team to participate to DevHunt, all team members will receive an email invitation allowing them to join the [AEENI-UF organization](https://github.com/AEENI-UF). 
 
 <img src="./img/Email invitation.png"/>
 ![[Email invitation.png]]
@@ -146,12 +146,18 @@ Then you should now see it in your team's repos
 <img src="./img/Repo added to team.png"/>
 ![[Repo added to team.png]]
 
-Add Write permission to the repo for the team
+4. Add Write permission to the repo for the team
 
 <img src="./img/Add write permission to repo.png"/>
 ![[Add write permission to repo.png]]
 
 Now, your team's repository is ready. You can visit the repo by clicking the link of the repo, or go directly to the link `https://github.com/AEENI-UF/devhunt-edition-1-YOURREPONAME`
+
+5. Add each team members to the created team. Follow the link `https://github.com/orgs/AEENI-UF/teams/YOURTEAMNAME/members?add=true`
+   >eg: https://github.com/orgs/AEENI-UF/teams/cocotte-minute/members?add=true
+
+<img src="./img/Add team members.png"/>
+ ![[Add team members.png]]
 
 ## 3.3 Using the repository
 
