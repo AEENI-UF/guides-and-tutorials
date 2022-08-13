@@ -259,6 +259,7 @@ $ git commit -m "Put your the description of your commit here"
 $ git push
 ```
 
+To get updates from the remote repository, 
 
 
 
