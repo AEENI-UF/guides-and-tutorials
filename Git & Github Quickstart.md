@@ -223,7 +223,7 @@ The workflow: we have to repeat the following actions each time we want to updat
 ![[Git workflow.png]]
 ***Source: https://en.wikibooks.org/wiki/File:Git_data_flow.png
 
-Anywhere in the workflow, you can always check a status of your files using:
+Anywhere in the workflow, you can always check the status of your files using:
 
 ```execute
 $ git status
@@ -249,7 +249,7 @@ $ git add yourFile1.txt yourFile2.css
   When you have finished adding the files you want to prepare, you can commit them to the *local repository* with a description (message, reason or comment) of your commit:
 
 ```execute
-$ git commit -m "Put your the description of your commit here"
+$ git commit -m "Put the description of your commit here"
 ```
 
 - **Local repository:** This is a repository that resides on your local machine. When you commited your files from the staging area, they will reside at the current active branch, pointed by a pointer called **HEAD**, and that points to the last commit on that branch. 
