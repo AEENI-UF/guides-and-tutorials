@@ -103,7 +103,7 @@ Click the join button and you will be redirected to github:
 <img src="./img/GitHub invitation.png"/>
 ![[GitHub invitation.png]]
 
-Once joined, you will be able to see and create repositories on the organization. You will be able to join or create teams and subteams also.
+Once joined, you will be able to see and create repositories on the organization. You will  also be able to join or create teams and subteams.
 
 <img src="./img/AEENI-UF.png"/>
 ![[AEENI-UF.png]]
@@ -203,14 +203,15 @@ If you list its content, there should exist one folder `.git` and a `README.md` 
 ![[List first.png]]
 
 
-
-# ------------ IN PROGRESS ... -----------
-
 ### 3.3.3 Open the project in your IDE
 You can open the project in your IDE or source code editor. (VSCode, Atom, Eclipse,...) 
 
-### 3.3.4 Developing the project
+## 3.4 Developing the project
+
 It's time to develop our project. Each time we finish a functionnality in our project, we should upload (push) the modifications to our remote repository so that the other collaborators can download (pull) them. 
+
+3.4.1 The git workflow
+
 The workflow: we have to repeat the following actions each time we want to update our project:
 
 1.  Create or modify files (css, html, js, py, java, img, ....)
@@ -218,25 +219,50 @@ The workflow: we have to repeat the following actions each time we want to updat
 3. ...
 
 
+<img src="./img/Git workflow.png"/>
+![[Git workflow.png]]
+***Source: https://en.wikibooks.org/wiki/File:Git_data_flow.png
 
-1. Creating source code files
-You can now create your source code files .
+Anywhere in the workflow, you can always check a status of your files using:
 
-Example: HelloWorld.html
-```html
-<html>
-	<body>
-		<h1>Hello World</h1>
-	</body>
-</html>
+```execute
+$ git status
 ```
 
-We have now two files: `README.md` and `Hello World` .
+- **Working directory or working tree:** This is where your files reside and where you can edit and develop your project. When you have done editing some files, you need first to add or prepare them to the *staging area*. 
+  You can add them either once together or specifically.
 
-2. 
+To add them once for all, execute the following inside the root folder of your project:
+
+```execute
+$ git add .  
+```
+
+To add them specifically, list your edited files after the add command.
+
+Example:
+```execute
+$ git add yourFile1.txt yourFile2.css
+```
+
+- **Staging area or index:** This is a location containing your prepared files. `.git/index` contains paths and `.git/objects` contains file contents. You should always use git commands to add or remove files from there, and not manually.
+  When you have finished adding the files you want to prepare, you can commit them to the *local repository* with a description (message, reason or comment) of your commit:
+
+```execute
+$ git commit -m "Put your the description of your commit here"
+```
+
+- **Local repository:** This is a repository that resides on your local machine. When you commited your files from the staging area, they will reside at the current active branch, pointed by a pointer called **HEAD**, and that points to the last commit on that branch. 
+  You can now push or upload your files to your remote repository (your GitHub repository):
+
+```execute
+$ git push
+```
 
 
-### 3.3.5 
+
+
+# ------------ IN PROGRESS ... -----------
 
 
 # Useful Links
